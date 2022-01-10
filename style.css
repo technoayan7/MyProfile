@@ -1,0 +1,108 @@
+body {
+    background-image: url('images/background.jpg');
+    color: aliceblue;
+  }
+
+.top
+{
+  text-align: center;
+  font-size: 30px;
+}
+.header {
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  a.profile
+  {
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 10px;
+     margin-right: 20px;
+     position:absolute;
+     top: 10px;;
+     right:0;
+  }
+  a.profile:hover
+  {
+    background-color: white;
+    color: black;
+    font-size: 23px;
+    font-family: serif;
+  }
+
+a:link, a:visited {
+  background-color: dimgrey;
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  outline-style: groove;
+  
+}
+a.linkedin:hover
+{
+  background-color: #0e76a8;
+  color: white;
+  font-size: 25px;
+}
+a.github:hover
+{
+  background-color: rgb(14, 6, 0);
+  color: white;
+  font-size: 25px;
+}
+a.instagram:hover
+{
+  background-color: #C13584;
+  color: white;
+  font-size: 25px;
+}
+a.facebook:hover
+{
+  background-color: rgb(57, 112, 206);
+  color: white;
+  font-size: 25px;
+}
+a.hackerrank:hover
+{
+  background-color: rgb(44, 18, 61);
+  color: white;
+  font-size: 25px;
+}
+a.youtube:hover
+{
+  background-color: rgb(255, 0, 43);
+  color: white;
+  font-size: 25px;
+}
+img{
+  border-radius: 100%;
+}
+a.contact
+{
+  padding: 5px 15px;
+  font-size: 20px;
+}
+a.contact:hover
+{
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  font-family: serif;
+}
+a{
+  font-family: serif;
+}
+h3
+{
+  outline-style: groove;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 25px;
+  text-decoration: none;
+}
